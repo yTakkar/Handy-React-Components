@@ -6,7 +6,10 @@ export default class Nothing extends React.Component{
   render(){
     let { mssg, showMssg } = this.props
     return (
-      <div style={nothing} >
+      <div style={{
+        ...nothing,
+        border: !showMssg ? 'none' : null
+      }} >
         <img style={nothing_img} src='../images/large.jpg' />
         { showMssg ? <span style={nothing_span} >{mssg}</span> : null }
       </div>
