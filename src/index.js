@@ -3,4 +3,9 @@ import End from './components/end'
 import Title from './components/title'
 import Nothing from './components/nothing'
 
-export default Overlay
+export {
+  Overlay,
+  End,
+  Title,
+  Nothing
+}
