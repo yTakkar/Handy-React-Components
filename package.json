@@ -1,0 +1,38 @@
+{
+  "name": "handy-react-components",
+  "version": "1.0.1",
+  "description": "Handy & Simple React components!!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yTakkar/Handy-React-Components.git"
+  },
+  "author": "yTakkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yTakkar/Handy-React-Components/issues"
+  },
+  "homepage": "https://github.com/yTakkar/Handy-React-Components#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.1.1",
+    "eslint": "^4.14.0",
+    "eslint-plugin-react": "^7.5.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
